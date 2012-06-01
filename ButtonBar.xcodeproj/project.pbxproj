@@ -20,6 +20,10 @@
 		A07C55521578FA2D0006E161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C55331578FA2D0006E161 /* Foundation.framework */; };
 		A07C555A1578FA2D0006E161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07C55581578FA2D0006E161 /* InfoPlist.strings */; };
 		A07C555D1578FA2D0006E161 /* TabBarHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C555C1578FA2D0006E161 /* TabBarHeaderTests.m */; };
+		A07C55681578FE390006E161 /* UIButtonBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C55671578FE390006E161 /* UIButtonBarController.m */; };
+		A07C556B157900570006E161 /* ButtonBarNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = A07C5569157900570006E161 /* ButtonBarNipple.png */; };
+		A07C556C157900570006E161 /* ButtonBarNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A07C556A157900570006E161 /* ButtonBarNipple@2x.png */; };
+		A07C556E157901DF0006E161 /* ButtonBarNippleDn.png in Resources */ = {isa = PBXBuildFile; fileRef = A07C556D157901DF0006E161 /* ButtonBarNippleDn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A07C552D1578FA2D0006E161 /* TabBarHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07C552D1578FA2D0006E161 /* ButtonBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07C55311578FA2D0006E161 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A07C55331578FA2D0006E161 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A07C55351578FA2D0006E161 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A07C55391578FA2D0006E161 /* TabBarHeader-Info.plist */ = {isa = PBXFileReference; path = "TabBarHeader-Info.plist"; sourceTree = "<group>"; };
+		A07C55391578FA2D0006E161 /* ButtonBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBar-Info.plist"; sourceTree = "<group>"; };
 		A07C553B1578FA2D0006E161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07C553D1578FA2D0006E161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A07C553F1578FA2D0006E161 /* TabBarHeader-Prefix.pch */ = {isa = PBXFileReference; path = "TabBarHeader-Prefix.pch"; sourceTree = "<group>"; };
-		A07C55401578FA2D0006E161 /* BSCAppDelegate.h */ = {isa = PBXFileReference; path = BSCAppDelegate.h; sourceTree = "<group>"; };
+		A07C553F1578FA2D0006E161 /* ButtonBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonBar-Prefix.pch"; sourceTree = "<group>"; };
+		A07C55401578FA2D0006E161 /* BSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCAppDelegate.h; sourceTree = "<group>"; };
 		A07C55411578FA2D0006E161 /* BSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCAppDelegate.m; sourceTree = "<group>"; };
-		A07C55431578FA2D0006E161 /* BSCViewController.h */ = {isa = PBXFileReference; path = BSCViewController.h; sourceTree = "<group>"; };
+		A07C55431578FA2D0006E161 /* BSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCViewController.h; sourceTree = "<group>"; };
 		A07C55441578FA2D0006E161 /* BSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCViewController.m; sourceTree = "<group>"; };
 		A07C55471578FA2D0006E161 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSCViewController.xib; sourceTree = "<group>"; };
-		A07C554E1578FA2D0006E161 /* TabBarHeaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarHeaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07C554E1578FA2D0006E161 /* ButtonBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07C554F1578FA2D0006E161 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A07C55571578FA2D0006E161 /* TabBarHeaderTests-Info.plist */ = {isa = PBXFileReference; path = "TabBarHeaderTests-Info.plist"; sourceTree = "<group>"; };
+		A07C55571578FA2D0006E161 /* ButtonBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBarTests-Info.plist"; sourceTree = "<group>"; };
 		A07C55591578FA2D0006E161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A07C555B1578FA2D0006E161 /* TabBarHeaderTests.h */ = {isa = PBXFileReference; path = TabBarHeaderTests.h; sourceTree = "<group>"; };
+		A07C555B1578FA2D0006E161 /* TabBarHeaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarHeaderTests.h; sourceTree = "<group>"; };
 		A07C555C1578FA2D0006E161 /* TabBarHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarHeaderTests.m; sourceTree = "<group>"; };
+		A07C55661578FE390006E161 /* UIButtonBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonBarController.h; sourceTree = "<group>"; };
+		A07C55671578FE390006E161 /* UIButtonBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonBarController.m; sourceTree = "<group>"; };
+		A07C5569157900570006E161 /* ButtonBarNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBarNipple.png; sourceTree = "<group>"; };
+		A07C556A157900570006E161 /* ButtonBarNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonBarNipple@2x.png"; sourceTree = "<group>"; };
+		A07C556D157901DF0006E161 /* ButtonBarNippleDn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBarNippleDn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +90,8 @@
 		A07C55221578FA2D0006E161 = {
 			isa = PBXGroup;
 			children = (
-				A07C55371578FA2D0006E161 /* TabBarHeader */,
-				A07C55551578FA2D0006E161 /* TabBarHeaderTests */,
+				A07C55371578FA2D0006E161 /* ButtonBar */,
+				A07C55551578FA2D0006E161 /* ButtonBarTests */,
 				A07C55301578FA2D0006E161 /* Frameworks */,
 				A07C552E1578FA2D0006E161 /* Products */,
 			);
@@ -91,8 +100,8 @@
 		A07C552E1578FA2D0006E161 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A07C552D1578FA2D0006E161 /* TabBarHeader.app */,
-				A07C554E1578FA2D0006E161 /* TabBarHeaderTests.octest */,
+				A07C552D1578FA2D0006E161 /* ButtonBar.app */,
+				A07C554E1578FA2D0006E161 /* ButtonBarTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +117,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A07C55371578FA2D0006E161 /* TabBarHeader */ = {
+		A07C55371578FA2D0006E161 /* ButtonBar */ = {
 			isa = PBXGroup;
 			children = (
 				A07C55401578FA2D0006E161 /* BSCAppDelegate.h */,
@@ -117,35 +126,42 @@
 				A07C55441578FA2D0006E161 /* BSCViewController.m */,
 				A07C55461578FA2D0006E161 /* BSCViewController.xib */,
 				A07C55381578FA2D0006E161 /* Supporting Files */,
+				A07C55661578FE390006E161 /* UIButtonBarController.h */,
+				A07C55671578FE390006E161 /* UIButtonBarController.m */,
 			);
+			name = ButtonBar;
 			path = TabBarHeader;
 			sourceTree = "<group>";
 		};
 		A07C55381578FA2D0006E161 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A07C55391578FA2D0006E161 /* TabBarHeader-Info.plist */,
+				A07C556D157901DF0006E161 /* ButtonBarNippleDn.png */,
+				A07C5569157900570006E161 /* ButtonBarNipple.png */,
+				A07C556A157900570006E161 /* ButtonBarNipple@2x.png */,
+				A07C55391578FA2D0006E161 /* ButtonBar-Info.plist */,
 				A07C553A1578FA2D0006E161 /* InfoPlist.strings */,
 				A07C553D1578FA2D0006E161 /* main.m */,
-				A07C553F1578FA2D0006E161 /* TabBarHeader-Prefix.pch */,
+				A07C553F1578FA2D0006E161 /* ButtonBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A07C55551578FA2D0006E161 /* TabBarHeaderTests */ = {
+		A07C55551578FA2D0006E161 /* ButtonBarTests */ = {
 			isa = PBXGroup;
 			children = (
 				A07C555B1578FA2D0006E161 /* TabBarHeaderTests.h */,
 				A07C555C1578FA2D0006E161 /* TabBarHeaderTests.m */,
 				A07C55561578FA2D0006E161 /* Supporting Files */,
 			);
+			name = ButtonBarTests;
 			path = TabBarHeaderTests;
 			sourceTree = "<group>";
 		};
 		A07C55561578FA2D0006E161 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A07C55571578FA2D0006E161 /* TabBarHeaderTests-Info.plist */,
+				A07C55571578FA2D0006E161 /* ButtonBarTests-Info.plist */,
 				A07C55581578FA2D0006E161 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -154,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A07C552C1578FA2D0006E161 /* TabBarHeader */ = {
+		A07C552C1578FA2D0006E161 /* ButtonBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A07C55601578FA2D0006E161 /* Build configuration list for PBXNativeTarget "TabBarHeader" */;
+			buildConfigurationList = A07C55601578FA2D0006E161 /* Build configuration list for PBXNativeTarget "ButtonBar" */;
 			buildPhases = (
 				A07C55291578FA2D0006E161 /* Sources */,
 				A07C552A1578FA2D0006E161 /* Frameworks */,
@@ -166,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = TabBarHeader;
+			name = ButtonBar;
 			productName = TabBarHeader;
-			productReference = A07C552D1578FA2D0006E161 /* TabBarHeader.app */;
+			productReference = A07C552D1578FA2D0006E161 /* ButtonBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A07C554D1578FA2D0006E161 /* TabBarHeaderTests */ = {
+		A07C554D1578FA2D0006E161 /* ButtonBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A07C55631578FA2D0006E161 /* Build configuration list for PBXNativeTarget "TabBarHeaderTests" */;
+			buildConfigurationList = A07C55631578FA2D0006E161 /* Build configuration list for PBXNativeTarget "ButtonBarTests" */;
 			buildPhases = (
 				A07C55491578FA2D0006E161 /* Sources */,
 				A07C554A1578FA2D0006E161 /* Frameworks */,
@@ -185,9 +201,9 @@
 			dependencies = (
 				A07C55541578FA2D0006E161 /* PBXTargetDependency */,
 			);
-			name = TabBarHeaderTests;
+			name = ButtonBarTests;
 			productName = TabBarHeaderTests;
-			productReference = A07C554E1578FA2D0006E161 /* TabBarHeaderTests.octest */;
+			productReference = A07C554E1578FA2D0006E161 /* ButtonBarTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +214,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = A07C55271578FA2D0006E161 /* Build configuration list for PBXProject "TabBarHeader" */;
+			buildConfigurationList = A07C55271578FA2D0006E161 /* Build configuration list for PBXProject "ButtonBar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A07C552C1578FA2D0006E161 /* TabBarHeader */,
-				A07C554D1578FA2D0006E161 /* TabBarHeaderTests */,
+				A07C552C1578FA2D0006E161 /* ButtonBar */,
+				A07C554D1578FA2D0006E161 /* ButtonBarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +239,9 @@
 			files = (
 				A07C553C1578FA2D0006E161 /* InfoPlist.strings in Resources */,
 				A07C55481578FA2D0006E161 /* BSCViewController.xib in Resources */,
+				A07C556B157900570006E161 /* ButtonBarNipple.png in Resources */,
+				A07C556C157900570006E161 /* ButtonBarNipple@2x.png in Resources */,
+				A07C556E157901DF0006E161 /* ButtonBarNippleDn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 				A07C553E1578FA2D0006E161 /* main.m in Sources */,
 				A07C55421578FA2D0006E161 /* BSCAppDelegate.m in Sources */,
 				A07C55451578FA2D0006E161 /* BSCViewController.m in Sources */,
+				A07C55681578FE390006E161 /* UIButtonBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +296,7 @@
 /* Begin PBXTargetDependency section */
 		A07C55541578FA2D0006E161 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A07C552C1578FA2D0006E161 /* TabBarHeader */;
+			target = A07C552C1578FA2D0006E161 /* ButtonBar */;
 			targetProxy = A07C55531578FA2D0006E161 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,9 +378,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TabBarHeader/TabBarHeader-Prefix.pch";
-				INFOPLIST_FILE = "TabBarHeader/TabBarHeader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TabBarHeader/ButtonBar-Prefix.pch";
+				INFOPLIST_FILE = "TabBarHeader/ButtonBar-Info.plist";
+				PRODUCT_NAME = ButtonBar;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,9 +389,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TabBarHeader/TabBarHeader-Prefix.pch";
-				INFOPLIST_FILE = "TabBarHeader/TabBarHeader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TabBarHeader/ButtonBar-Prefix.pch";
+				INFOPLIST_FILE = "TabBarHeader/ButtonBar-Info.plist";
+				PRODUCT_NAME = ButtonBar;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -386,8 +406,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarHeader/TabBarHeader-Prefix.pch";
-				INFOPLIST_FILE = "TabBarHeaderTests/TabBarHeaderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TabBarHeaderTests/ButtonBarTests-Info.plist";
+				PRODUCT_NAME = ButtonBarTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -403,8 +423,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarHeader/TabBarHeader-Prefix.pch";
-				INFOPLIST_FILE = "TabBarHeaderTests/TabBarHeaderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TabBarHeaderTests/ButtonBarTests-Info.plist";
+				PRODUCT_NAME = ButtonBarTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -413,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A07C55271578FA2D0006E161 /* Build configuration list for PBXProject "TabBarHeader" */ = {
+		A07C55271578FA2D0006E161 /* Build configuration list for PBXProject "ButtonBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A07C555E1578FA2D0006E161 /* Debug */,
@@ -422,21 +442,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A07C55601578FA2D0006E161 /* Build configuration list for PBXNativeTarget "TabBarHeader" */ = {
+		A07C55601578FA2D0006E161 /* Build configuration list for PBXNativeTarget "ButtonBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A07C55611578FA2D0006E161 /* Debug */,
 				A07C55621578FA2D0006E161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A07C55631578FA2D0006E161 /* Build configuration list for PBXNativeTarget "TabBarHeaderTests" */ = {
+		A07C55631578FA2D0006E161 /* Build configuration list for PBXNativeTarget "ButtonBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A07C55641578FA2D0006E161 /* Debug */,
 				A07C55651578FA2D0006E161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

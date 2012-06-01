@@ -10,6 +10,8 @@
 
 @implementation BSCViewController
 
+@synthesize tableHeader;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

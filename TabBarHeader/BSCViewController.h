@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class UIButtonBarController;
+
 @interface BSCViewController : UIViewController
 
+
+@property (nonatomic, retain ) IBOutlet UIButtonBarController *tableHeader;
 @end
