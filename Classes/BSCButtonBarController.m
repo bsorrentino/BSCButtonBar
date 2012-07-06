@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "UIButtonBarController.h"
+#import "BSCButtonBarController.h"
 
-@interface UIButtonBarController ( /*Private*/ )
+@interface BSCButtonBarController ( /*Private*/ )
 
 - (void) initialize;
 - (CGFloat) horizontalLocationForButton:(id)sender;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation UIButtonBarController
+@implementation BSCButtonBarController
 
 @synthesize buttons;
 @synthesize tabBarArrow;

@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface TabBarHeaderTests : SenTestCase
+@interface ButtonBarTests : SenTestCase
 
 @end

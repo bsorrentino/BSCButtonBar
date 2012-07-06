@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIButtonBarController : UIViewController
+@interface BSCButtonBarController : UIViewController
 
 
 @property (nonatomic,retain) IBOutletCollection(UIButton) NSArray *buttons;

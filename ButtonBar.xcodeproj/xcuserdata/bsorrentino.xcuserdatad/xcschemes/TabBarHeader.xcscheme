@@ -42,9 +42,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A07C552C1578FA2D0006E161"
-            BuildableName = "TabBarHeader.app"
-            BlueprintName = "TabBarHeader"
-            ReferencedContainer = "container:TabBarHeader.xcodeproj">
+            BuildableName = "ButtonBar.app"
+            BlueprintName = "ButtonBar"
+            ReferencedContainer = "container:ButtonBar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,15 +54,16 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A07C552C1578FA2D0006E161"
-            BuildableName = "TabBarHeader.app"
-            BlueprintName = "TabBarHeader"
-            ReferencedContainer = "container:TabBarHeader.xcodeproj">
+            BuildableName = "ButtonBar.app"
+            BlueprintName = "ButtonBar"
+            ReferencedContainer = "container:ButtonBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

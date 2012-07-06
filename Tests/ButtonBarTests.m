@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TabBarHeaderTests.h"
+#import "ButtonBarTests.h"
 
-@implementation TabBarHeaderTests
+@implementation ButtonBarTests
 
 - (void)setUp
 {
