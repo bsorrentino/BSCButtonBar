@@ -23,10 +23,10 @@
 		A0BD93EB15A75D6F00776632 /* ButtonBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BD93EA15A75D6F00776632 /* ButtonBarTests.m */; };
 		A0BD93ED15A75D8400776632 /* ButtonBarTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93EC15A75D8400776632 /* ButtonBarTests-Info.plist */; };
 		A0BD93F015A75D8C00776632 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93EE15A75D8C00776632 /* InfoPlist.strings */; };
-		A0BD93F215A7624900776632 /* ButtonBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93F115A7624900776632 /* ButtonBar.podspec */; };
 		A0BD93F615A762A800776632 /* ButtonBarNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93F315A762A800776632 /* ButtonBarNipple@2x.png */; };
 		A0BD93F715A762A800776632 /* ButtonBarNippleDn.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93F415A762A800776632 /* ButtonBarNippleDn.png */; };
 		A0BD93F815A762A800776632 /* ButtonBarNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93F515A762A800776632 /* ButtonBarNipple.png */; };
+		A0BD93FD15A767EF00776632 /* BSCButtonBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A0BD93FC15A767EF00776632 /* BSCButtonBar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		A0BD93EA15A75D6F00776632 /* ButtonBarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonBarTests.m; path = Tests/ButtonBarTests.m; sourceTree = SOURCE_ROOT; };
 		A0BD93EC15A75D8400776632 /* ButtonBarTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ButtonBarTests-Info.plist"; path = "Tests/ButtonBarTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A0BD93EF15A75D8C00776632 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		A0BD93F115A7624900776632 /* ButtonBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ButtonBar.podspec; sourceTree = "<group>"; };
 		A0BD93F315A762A800776632 /* ButtonBarNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ButtonBarNipple@2x.png"; path = "Resources/ButtonBarNipple@2x.png"; sourceTree = "<group>"; };
 		A0BD93F415A762A800776632 /* ButtonBarNippleDn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonBarNippleDn.png; path = Resources/ButtonBarNippleDn.png; sourceTree = "<group>"; };
 		A0BD93F515A762A800776632 /* ButtonBarNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonBarNipple.png; path = Resources/ButtonBarNipple.png; sourceTree = "<group>"; };
+		A0BD93FC15A767EF00776632 /* BSCButtonBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BSCButtonBar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		A07C55221578FA2D0006E161 = {
 			isa = PBXGroup;
 			children = (
-				A0BD93F115A7624900776632 /* ButtonBar.podspec */,
+				A0BD93FC15A767EF00776632 /* BSCButtonBar.podspec */,
 				A0BD93D715A75C3200776632 /* Supporting Files */,
 				A0BD93D015A75BE100776632 /* Example */,
 				A0BD93CC15A75B5900776632 /* Classes */,
@@ -261,10 +261,10 @@
 			files = (
 				A0BD93ED15A75D8400776632 /* ButtonBarTests-Info.plist in Resources */,
 				A0BD93F015A75D8C00776632 /* InfoPlist.strings in Resources */,
-				A0BD93F215A7624900776632 /* ButtonBar.podspec in Resources */,
 				A0BD93F615A762A800776632 /* ButtonBarNipple@2x.png in Resources */,
 				A0BD93F715A762A800776632 /* ButtonBarNippleDn.png in Resources */,
 				A0BD93F815A762A800776632 /* ButtonBarNipple.png in Resources */,
+				A0BD93FD15A767EF00776632 /* BSCButtonBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +350,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -375,6 +376,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
