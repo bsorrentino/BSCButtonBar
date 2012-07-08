@@ -7,8 +7,9 @@
 //
 
 #import "BSCViewController.h"
-
+#import "BSCTableViewController.h"
 @implementation BSCViewController
+@synthesize example2;
 
 @synthesize tableHeader;
 
@@ -28,6 +29,7 @@
 
 - (void)viewDidUnload
 {
+    [self setExample2:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -59,4 +61,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)showExample2:(id)sender {
+    
+    [self presentModalViewController:self.example2 animated:YES];
+    
+}
 @end

@@ -13,5 +13,7 @@
 @interface BSCViewController : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UIViewController *example2;
+- (IBAction)showExample2:(id)sender;
 @property (nonatomic, retain ) IBOutlet BSCButtonBarController *tableHeader;
 @end

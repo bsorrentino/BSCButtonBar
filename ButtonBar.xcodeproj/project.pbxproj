@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F80D93015AA361300C6ED05 /* BSCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D92E15AA361300C6ED05 /* BSCTableViewController.m */; };
+		5F80D93115AA361300C6ED05 /* BSCTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D92F15AA361300C6ED05 /* BSCTableViewController.xib */; };
 		A07C55321578FA2D0006E161 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C55311578FA2D0006E161 /* UIKit.framework */; };
 		A07C55341578FA2D0006E161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C55331578FA2D0006E161 /* Foundation.framework */; };
 		A07C55361578FA2D0006E161 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C55351578FA2D0006E161 /* CoreGraphics.framework */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F80D92D15AA361300C6ED05 /* BSCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSCTableViewController.h; path = Example/BSCTableViewController.h; sourceTree = "<group>"; };
+		5F80D92E15AA361300C6ED05 /* BSCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSCTableViewController.m; path = Example/BSCTableViewController.m; sourceTree = "<group>"; };
+		5F80D92F15AA361300C6ED05 /* BSCTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BSCTableViewController.xib; path = Example/BSCTableViewController.xib; sourceTree = "<group>"; };
 		A07C552D1578FA2D0006E161 /* ButtonBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07C55311578FA2D0006E161 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A07C55331578FA2D0006E161 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -156,10 +161,14 @@
 		A0BD93D015A75BE100776632 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				A0BD93D115A75C0600776632 /* BSCViewController.h */,
 				A0BD93D215A75C0600776632 /* BSCAppDelegate.h */,
-				A0BD93D315A75C0600776632 /* BSCViewController.m */,
 				A0BD93D415A75C0600776632 /* BSCAppDelegate.m */,
+				A0BD93D115A75C0600776632 /* BSCViewController.h */,
+				A0BD93D315A75C0600776632 /* BSCViewController.m */,
+				A0BD93E315A75D1D00776632 /* BSCViewController.xib */,
+				5F80D92D15AA361300C6ED05 /* BSCTableViewController.h */,
+				5F80D92E15AA361300C6ED05 /* BSCTableViewController.m */,
+				5F80D92F15AA361300C6ED05 /* BSCTableViewController.xib */,
 			);
 			name = Example;
 			sourceTree = "<group>";
@@ -170,7 +179,6 @@
 				A0BD93F315A762A800776632 /* ButtonBarNipple@2x.png */,
 				A0BD93F415A762A800776632 /* ButtonBarNippleDn.png */,
 				A0BD93F515A762A800776632 /* ButtonBarNipple.png */,
-				A0BD93E315A75D1D00776632 /* BSCViewController.xib */,
 				A0BD93E515A75D1D00776632 /* InfoPlist.strings */,
 				A0BD93E115A75CFF00776632 /* main.m */,
 				A0BD93DB15A75C5400776632 /* ButtonBar-Info.plist */,
@@ -252,6 +260,7 @@
 				A0BD93E015A75C5400776632 /* ButtonBar-Info.plist in Resources */,
 				A0BD93E715A75D1D00776632 /* BSCViewController.xib in Resources */,
 				A0BD93E815A75D1D00776632 /* InfoPlist.strings in Resources */,
+				5F80D93115AA361300C6ED05 /* BSCTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +304,7 @@
 				A0BD93D515A75C0600776632 /* BSCViewController.m in Sources */,
 				A0BD93D615A75C0600776632 /* BSCAppDelegate.m in Sources */,
 				A0BD93E215A75CFF00776632 /* main.m in Sources */,
+				5F80D93015AA361300C6ED05 /* BSCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

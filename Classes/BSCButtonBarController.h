@@ -14,5 +14,6 @@
 @property (nonatomic,retain) IBOutletCollection(UIButton) NSArray *buttons;
 @property (nonatomic, retain) IBOutlet UIImageView *tabBarArrow;
 
+-(void)setAsTableHeaderView:(UITableView*)tableView;
 
 @end

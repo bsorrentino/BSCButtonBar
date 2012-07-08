@@ -144,4 +144,22 @@
 */    
 }
 
+-(void)setAsTableHeaderView:(UITableView*)tableView
+{
+    NSParameterAssert(tableView);
+    
+    if( tableView == nil ) return;
+    
+    CGRect rect = self.tabBarArrow.frame;
+    
+    rect.origin.y = tableView.frame.origin.y;
+    
+    self.tabBarArrow.frame = rect;
+    
+    [tableView addSubview:self.tabBarArrow];
+    
+    tableView.tableHeaderView = self.view;
+    
+}
+
 @end
