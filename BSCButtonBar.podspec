@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'ButtonBar'
-  s.version  = '0.1'
+  s.version  = '0.2'
   s.license  = 'unspecified'
   s.summary  = 'A button bar with animated indicator'
   s.homepage = 'https://github.com/bsorrentino/BSCButtonBar'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retreived.
   #
-  s.source   = { :git => 'https://github.com/bsorrentino/BSCButtonBar.git', :tag => '0.1' }
+  s.source   = { :git => 'https://github.com/bsorrentino/BSCButtonBar.git', :tag => '0.2' }
   # s.source   = { :svn => 'http://EXAMPLE/ButtonBar/tags/1.0.0' }
   # s.source   = { :hg  => 'http://EXAMPLE/ButtonBar', :revision => '1.0.0' }
 
