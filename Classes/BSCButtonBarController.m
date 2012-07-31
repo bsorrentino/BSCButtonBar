@@ -146,17 +146,22 @@
 
 -(void)setAsTableHeaderView:(UITableView*)tableView
 {
-    NSParameterAssert(tableView);
-    
+    NSParameterAssert(tableView);    
     if( tableView == nil ) return;
     
-    CGRect rect = self.tabBarArrow.frame;
+    NSAssert(self.tabBarArrow != nil, @"tab bar arrow must be not nil!");
     
-    rect.origin.y = tableView.frame.origin.y;
+    if( self.tabBarArrow != nil ) {
+        CGRect rect = self.tabBarArrow.frame;
     
-    self.tabBarArrow.frame = rect;
+        rect.origin.y = self.view.frame.origin.y + self.view.frame.size.height;
     
-    [tableView addSubview:self.tabBarArrow];
+        self.tabBarArrow.frame = rect;
+    
+        if ( ![tableView.subviews containsObject:self.tabBarArrow]) {
+            [tableView addSubview:self.tabBarArrow];
+        }
+    }
     
     tableView.tableHeaderView = self.view;
     
