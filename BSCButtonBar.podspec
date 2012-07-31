@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'BSCButtonBar'
-  s.version  = '0.2'
+  s.version  = '0.3'
   
   s.license      = {
      :type => 'free',
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/bsorrentino/BSCButtonBar'
   s.author   = { 'bsorrentino' => 'bartolomeo.sorrentino@gmail.com' }
 
-  s.source   = { :git => 'https://github.com/bsorrentino/BSCButtonBar.git', :tag => '0.2' }
+  s.source   = { :git => 'https://github.com/bsorrentino/BSCButtonBar.git', :tag => '0.3' }
 
   s.description = '.'
 
